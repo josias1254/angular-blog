@@ -1,0 +1,24 @@
+.menu{
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+}
+.img{
+  margin: 0px 10px 0px;
+  height: 45px;
+  filter: grayscale(100%);
+}
+.buttom{
+  font-weight: bolder;
+  margin: 0px 10px 0px;
+}
+.social{
+  justify-content: right;
+  position:absolute;
+  left: 30px;
+}
+.icon{
+  height: 28px;
+  margin: 0 5px 0;
+}

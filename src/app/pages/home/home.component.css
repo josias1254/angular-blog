@@ -1,0 +1,19 @@
+.ultimos{
+  margin: 10px 0px 21px;
+  font-size: 17px;
+  font-family: 'Segoe UI';
+}
+.fora{
+  margin: 0px 390px 0px;
+}
+.posts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 178px;
+}
+.giga {
+
+}
+.card{
+
+}
