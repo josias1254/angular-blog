@@ -1,17 +1,17 @@
-<a href="https://github.com/josias1254/Calculadora">
+<a [routerLink]="['conteudo', Id]">
   <div class="container">
     <div class="image">
       <img
-        src="../../../assets/Calculadora.png"
+        src="{{imagem}}"
         alt=""
       />
     </div>
     <div class="data">
-      <p>Há 3 semanas</p>
+      <p>{{data}}</p>
     </div>
 
     <div class="titulo">
-      <h1>Calculadora HTML</h1>
+      <h1>{{titulo}}</h1>
     </div>
     <div class="descrição">
       <p>
@@ -19,7 +19,7 @@
       </p>
     </div>
     <div class="tags">
-      <div *ngFor="let item of lista" class="tag">
+      <div *ngFor="let item of tags" class="tag">
         <span>{{ item }}</span>
       </div>
     </div>

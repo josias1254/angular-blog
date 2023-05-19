@@ -1,30 +1,31 @@
-
+<a [routerLink]="['conteudo', Id]">
 <div class="container">
   <div class="image">
     <img
-      src="https://media.gettyimages.com/id/1281634250/pt/foto/large-vertical-farm-inside-a-greenhouse-image-generated-digitally.jpg?s=612x612&w=gi&k=20&c=_5yRiVenHVCPebw611FX47rOFPKwqWu97U8_ST8daO0="
+      src="{{imagem}}"
       alt=""
     />
   </div>
 
   <div class="info">
   <div class="data">
-    <p>Há 3 semanas</p>
+    <p>{{data}}</p>
   </div>
 
 
   <div class="titulo">
-    <h1>Conversations with London Makr & Co.</h1>
+    <h1>{{titulo}}</h1>
   </div>
   <div class="descrição">
     <p>
-teste teste teste teste teste teste teste teste testeteste teste teste testeste teste teste
+{{descricao}}
     </p>
   </div>
   <div class="tags">
-  <div class="tag">
-    <span>Java</span>
-    <span>Python</span>
+  <div *ngFor="let item of tags" class="tag">
+    <span>{{item}}</span>
   </div></div>
 </div>
 </div>
+</a>
+

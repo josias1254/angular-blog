@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-giga-card',
@@ -7,12 +7,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GigaCardComponent implements OnInit {
 
+  goToLink(url: string){
+    window.open(url, "_blank");
+}
+@Input()
+  imagem:string = '';
+  @Input()
+  data:string = '';
+  @Input()
+  titulo:string = '';
+  @Input()
+  descricao:string = '';
+  @Input()
+  link:string = '';
+  @Input()
+  tags:string[] = [];
+
+  @Input()
+  Id:string="";
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  lista = ['javaScript','HTML','CSS']
 
-  descricao = '';
+
 }

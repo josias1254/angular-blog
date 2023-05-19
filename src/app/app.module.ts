@@ -9,6 +9,7 @@ import { PostsComponent } from './components/posts/posts.component';
 import { GigaCardComponent } from './components/giga-card/giga-card.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ConteudoComponent } from './pages/conteudo/conteudo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
     PostsComponent,
     GigaCardComponent,
     CardsComponent,
-    HomeComponent
+    HomeComponent,
+    ConteudoComponent
   ],
   imports: [
     BrowserModule,

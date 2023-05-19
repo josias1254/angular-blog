@@ -8,8 +8,8 @@
   justify-content: flex-start;
 }
 img{
-  height: 390px;
-  width: 528px;
+  height: auto;
+  width: 100%;
   object-fit: cover;
 }
 .titulo{
@@ -37,9 +37,10 @@ img{
   border-radius: 10px;
   margin-right: 4px;
   padding: 0px 6px 0px;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 500;
-  color: rgb(63, 63, 63);
+  background-color: rgb(63, 63, 63);
+  color: white;
   text-transform: capitalize;
 }
 
@@ -48,4 +49,12 @@ img{
   margin-top: 10px;
   font-size: 12px;
   font-weight: bolder;
+}
+.container:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) -3px 0px 25px -10px;
+  -webkit-transition: box-shadow 0.1s ease-in-out;
+  -moz-transition: box-shadow 0.1s ease-in-out;
+  -ms-transition: box-shadow 0.4s ease-in-out;
+  -o-transition: box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 }
